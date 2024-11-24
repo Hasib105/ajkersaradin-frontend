@@ -19,3 +19,13 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+/* styles/globals.css or your CSS file */
+#menu-toggle:checked ~ .mobile-menu {
+  display: block; /* Show the mobile menu */
+}
+
+#menu-toggle:not(:checked) ~ .mobile-menu {
+  display: none; /* Hide the mobile menu */
+}
